@@ -1,0 +1,56 @@
+﻿@model IEnumerable<SystemOfBookHotel.Application.ViewModel.AdmReservationVM>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Obecne Rezerwacje</h1>
+<div style="float:right; text-align:center;">
+    @Html.ActionLink("Logout", "Logout")
+</div>
+<div style="background-color: grey">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Start)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.End)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.RoomNumber)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Start)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.End)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RoomNumber)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Details", "Details", new { roomReservationId = item.RoomReservationId }, FormMethod.Get)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Remove", "Remove", new { roomReservationId = item.RoomReservationId }, FormMethod.Get)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

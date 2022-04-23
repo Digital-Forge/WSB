@@ -1,0 +1,37 @@
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons\bin\Debug\netcoreapp3.1\RegisterOfPersons.exe
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons\bin\Debug\netcoreapp3.1\RegisterOfPersons.deps.json
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons\bin\Debug\netcoreapp3.1\RegisterOfPersons.runtimeconfig.json
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons\bin\Debug\netcoreapp3.1\RegisterOfPersons.runtimeconfig.dev.json
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons\bin\Debug\netcoreapp3.1\RegisterOfPersons.dll
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons\bin\Debug\netcoreapp3.1\RegisterOfPersons.pdb
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons\bin\Debug\netcoreapp3.1\RegisterOfPersons.App.dll
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons\bin\Debug\netcoreapp3.1\RegisterOfPersons.App.pdb
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons\obj\Debug\netcoreapp3.1\RegisterOfPersons.csprojAssemblyReference.cache
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons\obj\Debug\netcoreapp3.1\RegisterOfPersons.AssemblyInfoInputs.cache
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons\obj\Debug\netcoreapp3.1\RegisterOfPersons.AssemblyInfo.cs
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons\obj\Debug\netcoreapp3.1\RegisterOfPersons.csproj.CoreCompileInputs.cache
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons\obj\Debug\netcoreapp3.1\RegisterOfPersons.csproj.CopyComplete
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons\obj\Debug\netcoreapp3.1\RegisterOfPersons.dll
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons\obj\Debug\netcoreapp3.1\RegisterOfPersons.pdb
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons\obj\Debug\netcoreapp3.1\RegisterOfPersons.genruntimeconfig.cache
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons\bin\Debug\netcoreapp3.1\RegisterOfPersons.ConsoleTerminal.dll
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons\bin\Debug\netcoreapp3.1\RegisterOfPersons.ConsoleTerminal.pdb
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons\bin\Debug\netcoreapp3.1\RegisterOfPersons.exe
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons\bin\Debug\netcoreapp3.1\RegisterOfPersons.deps.json
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons\bin\Debug\netcoreapp3.1\RegisterOfPersons.runtimeconfig.json
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons\bin\Debug\netcoreapp3.1\RegisterOfPersons.runtimeconfig.dev.json
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons\bin\Debug\netcoreapp3.1\RegisterOfPersons.dll
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons\bin\Debug\netcoreapp3.1\RegisterOfPersons.pdb
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons\bin\Debug\netcoreapp3.1\RegisterOfPersons.App.dll
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons\bin\Debug\netcoreapp3.1\RegisterOfPersons.ConsoleTerminal.dll
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons\bin\Debug\netcoreapp3.1\RegisterOfPersons.App.pdb
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons\bin\Debug\netcoreapp3.1\RegisterOfPersons.ConsoleTerminal.pdb
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons\obj\Debug\netcoreapp3.1\RegisterOfPersons.csproj.AssemblyReference.cache
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons\obj\Debug\netcoreapp3.1\RegisterOfPersons.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons\obj\Debug\netcoreapp3.1\RegisterOfPersons.AssemblyInfoInputs.cache
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons\obj\Debug\netcoreapp3.1\RegisterOfPersons.AssemblyInfo.cs
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons\obj\Debug\netcoreapp3.1\RegisterOfPersons.csproj.CoreCompileInputs.cache
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons\obj\Debug\netcoreapp3.1\RegisterOfPersons.csproj.CopyComplete
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons\obj\Debug\netcoreapp3.1\RegisterOfPersons.dll
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons\obj\Debug\netcoreapp3.1\RegisterOfPersons.pdb
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons\obj\Debug\netcoreapp3.1\RegisterOfPersons.genruntimeconfig.cache

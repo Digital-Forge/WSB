@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "RegisterOfPersons.App/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "RegisterOfPersons.ConsoleTerminal": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RegisterOfPersons.App.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RegisterOfPersons.App.dll": {}
+        }
+      },
+      "RegisterOfPersons.ConsoleTerminal/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/RegisterOfPersons.ConsoleTerminal.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RegisterOfPersons.ConsoleTerminal.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RegisterOfPersons.App/1.0.0": {
+      "type": "project",
+      "path": "../RegisterOfPersons.App/RegisterOfPersons.App.csproj",
+      "msbuildProject": "../RegisterOfPersons.App/RegisterOfPersons.App.csproj"
+    },
+    "RegisterOfPersons.ConsoleTerminal/1.0.0": {
+      "type": "project",
+      "path": "../RegisterOfPersons.ConsoleTerminal/RegisterOfPersons.ConsoleTerminal.csproj",
+      "msbuildProject": "../RegisterOfPersons.ConsoleTerminal/RegisterOfPersons.ConsoleTerminal.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "RegisterOfPersons.App >= 1.0.0",
+      "RegisterOfPersons.ConsoleTerminal >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Jan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Project\\WSB\\Programowanie Zaawansowanie\\RegisterOfPersons\\RegisterOfPersons\\RegisterOfPersons.csproj",
+      "projectName": "RegisterOfPersons",
+      "projectPath": "D:\\Project\\WSB\\Programowanie Zaawansowanie\\RegisterOfPersons\\RegisterOfPersons\\RegisterOfPersons.csproj",
+      "packagesPath": "C:\\Users\\Jan\\.nuget\\packages\\",
+      "outputPath": "D:\\Project\\WSB\\Programowanie Zaawansowanie\\RegisterOfPersons\\RegisterOfPersons\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Jan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "D:\\Project\\WSB\\Programowanie Zaawansowanie\\RegisterOfPersons\\RegisterOfPersons.App\\RegisterOfPersons.App.csproj": {
+              "projectPath": "D:\\Project\\WSB\\Programowanie Zaawansowanie\\RegisterOfPersons\\RegisterOfPersons.App\\RegisterOfPersons.App.csproj"
+            },
+            "D:\\Project\\WSB\\Programowanie Zaawansowanie\\RegisterOfPersons\\RegisterOfPersons.ConsoleTerminal\\RegisterOfPersons.ConsoleTerminal.csproj": {
+              "projectPath": "D:\\Project\\WSB\\Programowanie Zaawansowanie\\RegisterOfPersons\\RegisterOfPersons.ConsoleTerminal\\RegisterOfPersons.ConsoleTerminal.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

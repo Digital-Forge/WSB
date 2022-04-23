@@ -1,0 +1,110 @@
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+
+CREATE TABLE `access` (
+  `login` varchar(25) COLLATE utf8_polish_ci NOT NULL,
+  `password` varchar(255) COLLATE utf8_polish_ci NOT NULL,
+  `id_user` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_polish_ci;
+
+
+
+INSERT INTO `access` (`login`, `password`, `id_user`) VALUES
+('admin', '$2y$10$6l8qtQGuLkIDUppoOqjDI.38RHyuIUFb/DEwXrgJmgfknSMJYPhcu', 1);
+
+
+
+CREATE TABLE `block_items` (
+  `id_item` int(11) NOT NULL,
+  `id_user` int(11) NOT NULL,
+  `date_start` date NOT NULL,
+  `date_end` date NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_polish_ci;
+
+
+
+CREATE TABLE `items` (
+  `id_item` int(11) NOT NULL,
+  `item_type` varchar(30) COLLATE utf8_polish_ci NOT NULL,
+  `item_name` varchar(70) COLLATE utf8_polish_ci NOT NULL,
+  `description` text COLLATE utf8_polish_ci NOT NULL,
+  `img` varchar(100) COLLATE utf8_polish_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_polish_ci;
+
+
+
+CREATE TABLE `items_type` (
+  `item_type` varchar(30) COLLATE utf8_polish_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_polish_ci;
+
+
+
+CREATE TABLE `users` (
+  `id_user` int(11) NOT NULL,
+  `user_type` varchar(6) COLLATE utf8_polish_ci NOT NULL,
+  `name` varchar(30) COLLATE utf8_polish_ci NOT NULL,
+  `surname` varchar(30) COLLATE utf8_polish_ci NOT NULL,
+  `phone` varchar(11) COLLATE utf8_polish_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_polish_ci;
+
+
+
+INSERT INTO `users` (`id_user`, `user_type`, `name`, `surname`, `phone`) VALUES
+(1, 'admin', 'name', 'surname', '000-000-000');
+
+
+
+CREATE TABLE `users_type` (
+  `user_type` varchar(30) COLLATE utf8_polish_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_polish_ci;
+
+
+
+INSERT INTO `users_type` (`user_type`) VALUES
+('admin'),
+('user');
+
+
+
+ALTER TABLE `access`
+  ADD PRIMARY KEY (`id_user`),
+  ADD UNIQUE KEY `login` (`login`);
+
+
+
+ALTER TABLE `block_items`
+  ADD PRIMARY KEY (`id_item`);
+
+
+
+ALTER TABLE `items`
+  ADD PRIMARY KEY (`id_item`);
+
+
+
+ALTER TABLE `items_type`
+  ADD PRIMARY KEY (`item_type`);
+
+
+
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id_user`);
+
+
+
+ALTER TABLE `users_type`
+  ADD PRIMARY KEY (`user_type`);
+
+
+
+ALTER TABLE `access`
+  MODIFY `id_user` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+
+
+ALTER TABLE `items`
+  MODIFY `id_item` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
+COMMIT;

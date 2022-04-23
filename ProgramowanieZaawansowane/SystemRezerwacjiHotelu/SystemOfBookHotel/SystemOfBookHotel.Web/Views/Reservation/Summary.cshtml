@@ -1,0 +1,89 @@
+﻿@model SystemOfBookHotel.Application.ViewModel.SummaryVM
+
+@{
+    ViewData["Title"] = "Summary";
+}
+
+<div id="booking" class="section">
+    <div class="section-center">
+        <div class="container">
+            <div class="row">
+                <div class="booking-form">
+
+                    <div class="form-header-2">
+                        <h1>PODSUMOWANIE</h1>
+                    </div>
+                    <form asp-action="Payment">
+
+                        <div class="summary_personal_data">
+                            <div class="row">
+                                <div class="col-md-4">@Model.CustomerData.Name @Model.CustomerData.Surname</div>
+                                <div style="text-align:center" class="col-md-4">@Model.CustomerData.Email</div>
+                                <div style="text-align:right" class="col-md-4">@Model.CustomerData.Phone</div>
+                            </div>
+                        </div>
+
+                        <div class="summary_date">
+                            <span>
+                                @Model.Dates.DateStart.Value.ToString("dd-MM-yyyy") - @Model.Dates.DateEnd.Value.ToString("dd-MM-yyyy") <br>
+                                godz. przyjazdu: 15:00 <br>
+                                godz. wyjazdu: 11:00
+                            </span>
+                            <input asp-for="Dates.DateStart" type="hidden" />
+                            <input asp-for="Dates.DateEnd" type="hidden" />
+                            <input asp-for="CustomerData.Name" type="hidden" />
+                            <input asp-for="CustomerData.Surname" type="hidden" />
+                            <input asp-for="CustomerData.Email" type="hidden" />
+                            <input asp-for="CustomerData.Phone" type="hidden" />
+                        </div>
+
+                        @for (int i = 0; i < Model.Rooms.Count; i++)
+                        {
+                            <div class="summary_room_data">
+                                <div class="row">
+                                    <div class="col-4">Pokój @(i+1)</div>
+                                    <div class="col-4">Dorośli: @Model.Rooms[i].CountOld Dzieci: @Model.Rooms[i].CountChild</div>
+                                    <div class="col-4">Koszt: @Model.Rooms[i].PriceForRoom</div>
+                                </div>
+                                <div class="row">                                                           </div>
+                                <div class="row">
+                                @for (int j = 0; j < Model.Rooms[i].PerkList.Count; j++)
+                                {
+                                    <div class="col-md-4">@Model.Rooms[i].PerkList[j].Name</div>
+                                    <input asp-for="Rooms[i].PerkList[j].Name" type="hidden" />
+                                    <input asp-for="Rooms[i].PerkList[j].Id" type="hidden" />
+                                }
+                                </div>
+                                <div class="row">                                  
+                                    <div class="col-md-6"></div>
+                                    <div style="text-align:right" class="col-md-6">Koszt dodatków: @Model.Rooms[i].PriceForPerks</div>
+                                </div>                                
+                                <input asp-for="Rooms[i].CountOld" type="hidden" />
+                                <input asp-for="Rooms[i].CountChild" type="hidden" />
+                                <input asp-for="Rooms[i].RoomId" type="hidden" />
+                                <div style="text-align : center">-----------------------------------------------------------------------------------</div>
+                            </div>
+                        }
+
+                        <div class="row justify-content-end">
+                            <div class="col-6 col-md-4">
+                                <span class="total_cost">@Model.TotalPrice</span>
+                                <input asp-for="TotalPrice" type="hidden" />
+                                <input asp-for="_TotalPrice" type="hidden" />
+                            </div>
+                        </div>
+
+                        <div class="form-btn">
+                            <input type="submit" value="PRZEJDŹ DO PŁATNOŚCI" class="submit-btn" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <script src="https://kit.fontawesome.com/d73f199e71.js" crossorigin="anonymous"></script>
+}

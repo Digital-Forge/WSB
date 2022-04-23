@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "fgIplEaMUqxUrzZxsK8L+D7yW8K0lF/jyLEnu5hz9kQd1ebhodb+n8mhGwtsDR6GCPmyJzhCnAIWKTT5L4ZrmA==",
+  "success": true,
+  "projectFilePath": "D:\\Project\\WSB\\WSB\\ProgramowanieZaawansowane\\SystemRezerwacjiHotelu\\SystemOfBookHotel\\SystemOfBookHotel.Application\\SystemOfBookHotel.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jan\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
+    "C:\\Users\\Jan\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.3.6\\fluentvalidation.aspnetcore.10.3.6.nupkg.sha512",
+    "C:\\Users\\Jan\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.6\\fluentvalidation.dependencyinjectionextensions.10.3.6.nupkg.sha512",
+    "C:\\Users\\Jan\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.22\\microsoft.extensions.dependencyinjection.3.1.22.nupkg.sha512",
+    "C:\\Users\\Jan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.22\\microsoft.extensions.dependencyinjection.abstractions.3.1.22.nupkg.sha512"
+  ],
+  "logs": []
+}

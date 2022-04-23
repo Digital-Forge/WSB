@@ -1,0 +1,43 @@
+﻿@model SystemOfBookHotel.Application.ViewModel.DateReservationVM
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div id="booking" class="section">
+    <div class="section-center">
+        <div class="container">
+            <div class="row">
+                <div class="booking-form">
+                    <div class="form-header-1">
+                        <img src="~/jpg/unicorn_w.png" style="height:100px">
+                        <h1>HOTEL  JEDNOROŻEK</h1>
+                    </div>
+                    <form asp-action="RoomDefault">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input asp-for="DateStart" class="form-control" type="date" required />
+                                    <span class="form-label">Data przyjazdu</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input asp-for="DateEnd" class="form-control" type="date" required />
+                                    <span class="form-label">Data wyjazdu</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-btn">
+                            <button class="submit-btn">ZATWIERDŹ</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

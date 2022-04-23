@@ -1,0 +1,44 @@
+﻿@model SystemOfBookHotel.Application.ViewModel.ListOfRoomPerkVM
+
+@{
+    ViewData["Title"] = "ExtraPerk";
+}
+
+<div id="booking" class="section">
+    <div class="section-center">
+        <div class="container">
+            <div class="row">
+                <div class="booking-form">
+
+                    <div class="form-header-2">
+                        <h1>OPCJE DODATKOWE</h1>
+                    </div>
+                    <form asp-action="ClientData">
+                        <input asp-for="Dates.DateStart" type="hidden" />
+                        <input asp-for="Dates.DateEnd" type="hidden" />
+                        @for (int i = 0; i < Model.ListRooms.Count; i++)
+                        {
+                            <div class="room_number">Pokój @(i+1)</div>                            
+                            <input asp-for="ListRooms[i].Room.CountOld" type="hidden" />
+                            <input asp-for="ListRooms[i].Room.CountChild" type="hidden" />
+                            <input asp-for="ListRooms[i].Room.RoomId" type="hidden" />
+                            <div class="checkbox_text">
+                                <label class="control-label">Dorośli : @Model.ListRooms[i].Room.CountOld  |  Dzieci : @Model.ListRooms[i].Room.CountChild</label><br>
+                                @for (int j = 0; j < Model.ListRooms[i].PerkList.Count; j++)
+                                {
+                                    <input asp-for="ListRooms[i].PerkList[j].Check" type="checkbox" />
+                                    <label class="control-label">@Model.ListRooms[i].PerkList[j].Name</label><br>
+                                    <input asp-for="ListRooms[i].PerkList[j].Name" type="hidden" />
+                                    <input asp-for="ListRooms[i].PerkList[j].Id" type="hidden" />
+                                }
+                            </div>
+                        }
+                        <div class="form-btn">
+                            <input type="submit" value="ZATWIERDŹ" class="submit-btn" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

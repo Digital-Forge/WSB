@@ -1,0 +1,13 @@
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons.App\bin\Release\netcoreapp3.1\RegisterOfPersons.App.deps.json
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons.App\bin\Release\netcoreapp3.1\RegisterOfPersons.App.dll
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons.App\bin\Release\netcoreapp3.1\RegisterOfPersons.App.pdb
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons.App\bin\Release\netcoreapp3.1\RegisterOfPersons.ConsoleTerminal.dll
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons.App\bin\Release\netcoreapp3.1\RegisterOfPersons.ConsoleTerminal.pdb
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons.App\obj\Release\netcoreapp3.1\RegisterOfPersons.App.csproj.AssemblyReference.cache
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons.App\obj\Release\netcoreapp3.1\RegisterOfPersons.App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons.App\obj\Release\netcoreapp3.1\RegisterOfPersons.App.AssemblyInfoInputs.cache
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons.App\obj\Release\netcoreapp3.1\RegisterOfPersons.App.AssemblyInfo.cs
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons.App\obj\Release\netcoreapp3.1\RegisterOfPersons.App.csproj.CoreCompileInputs.cache
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons.App\obj\Release\netcoreapp3.1\RegisterOfPersons.App.csproj.CopyComplete
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons.App\obj\Release\netcoreapp3.1\RegisterOfPersons.App.dll
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons.App\obj\Release\netcoreapp3.1\RegisterOfPersons.App.pdb

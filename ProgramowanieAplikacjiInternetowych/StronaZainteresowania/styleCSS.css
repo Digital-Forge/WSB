@@ -1,0 +1,315 @@
+body
+{
+    background-color: #404040;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+#container
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#top
+{
+    margin-top: 25px;
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+#main_menu
+{
+    background-color: #303030;
+    margin-top: 20px;
+    padding-left: 5px;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.m_menu_element
+{
+    margin: 10px 5px 10px 5px;
+    background-color: #404040;
+
+    float: left;
+    min-width: 50px;
+    height: 25px;
+    font-size: 18px;
+    padding: 10px 15px 10px 10px;
+    text-align: center;
+    border-left: 3px dashed red;
+    border-right: 3px dashed red;
+    opacity: 0.8;
+
+    border-radius: 25%;
+}
+
+.m_menu_element:hover
+{
+    background-color: indigo;
+    font-size: 21px;
+}
+
+a.m_menu_link
+{
+    color: white;
+    text-decoration: none;
+}
+
+#content_border
+{
+    background-color: #303030;
+    padding: 5px 10px 0px 10px;
+}
+
+#content
+{
+    background-color: #404040;
+    padding: 5px 15px 15px 15px;
+    border-radius: 20px;
+}
+
+#topic_page
+{
+    font-size: 35px;
+    padding-bottom: 5px;
+    width: 950px;
+    border-bottom: 2px dashed red;
+}
+
+#person_photo
+{
+    width: 350px;
+    height: auto;
+    border: 2px solid lightgray;
+    border-radius: 25%;
+    margin-top: 15px;
+}
+
+#person_description
+{
+    float: left;
+    margin-left: 15px;
+    padding: 15px 0px 15px 15px;
+    width: 562px;
+    height: 335px;
+    border-left: 2px dashed red;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#footer
+{
+    background-color: #303030;
+    text-align: right;
+    color: lightgray;
+    padding: 10px;
+
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.s_media
+{
+    padding: 5px;
+}
+
+.s_media:hover
+{
+    border: 3px dotted white;
+    background-color: #303030;
+}
+
+a.sm_link
+{
+    color: white;
+    text-decoration: none;
+}
+
+.sm_logo
+{
+    float: left;
+    width: 150px;
+    height: 125px;
+    font-size: 80px;
+    text-align: center;
+    padding-right: 15px;
+    padding-top: 25px;
+    border-right: 2px dashed red;
+}
+
+.sm_logo_picturebox
+{
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding-right: 15px;
+    border-right: 2px dashed red;
+}
+
+.sm_logo_picture
+{
+    width: 150px;
+    height: auto;
+    padding-top: 12px;
+}
+
+.sm_description
+{
+    float: left;
+    width: 570px;
+    padding: 15px;
+    text-align: center;
+}
+
+#sm_icon_GitHub
+{
+    float: left;
+    width: 150px;
+    height: 125px;
+    font-size: 80px;
+    text-align: center;
+    padding-left: 15px;
+    padding-top: 25px;
+    border-left: 2px dashed red;
+}
+
+#sm_icon_GitHub:hover
+{
+    background-color: #6f42c1;
+}
+
+
+#sm_icon_LinkedIN
+{
+    float: left;
+    width: 150px;
+    height: 125px;
+    font-size: 80px;
+    text-align: center;
+    padding-left: 15px;
+    padding-top: 25px;
+    border-left: 2px dashed red;
+}
+
+#sm_icon_LinkedIN:hover
+{
+    background-color: #0e76a8;
+}
+
+#sm_icon_YouTube
+{
+    float: left;
+    width: 150px;
+    height: 125px;
+    font-size: 80px;
+    text-align: center;
+    padding-left: 15px;
+    padding-top: 25px;
+    border-left: 2px dashed red;
+}
+
+#sm_icon_YouTube:hover
+{
+    background-color: red;
+}
+
+#sm_icon_Discord_box
+{
+    float: left;
+    width: 150px;
+    height: 150px;
+    padding-left: 15px;
+    border-left: 2px dashed red;
+}
+
+#sm_icon_Discord_box:hover
+{
+    background-color: #7289DA;
+} 
+
+#sm_icon_Discord
+{
+    width: 120px;
+    height: auto;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+#hobby_menu
+{
+    float: left;
+    width: 202px;
+    padding: 10px 15px 10px 0px;
+}
+
+.hobby_menu_element
+{
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 20%;
+}
+
+.hobby_menu_element:hover
+{
+    background-color: #303030;
+    font-size: 20px;
+    border-left: 2px dashed white;
+    border-right: 2px dashed white;
+}
+
+#hobby_contentbox
+{
+    width: 716px;
+    float: left;
+    padding: 5px 0px 15px 15px;
+    border-left: 2px dashed red;
+}
+
+#hobby_content_header
+{
+    width: 718px;
+    font-size: 30px;
+    padding-bottom: 5px;
+    border-bottom: 2px dashed red;
+}
+
+#hobby_content
+{
+    width: 688px;
+    float: left;
+    padding: 15px;
+    text-align: justify;
+}
+
+.sm_element_title
+{
+    font-size: 25px;
+    color: ghostwhite;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+#programowanie_YT_box
+{
+    margin-top: 10px;
+    margin-left: 200px;
+    background-color: #303030;
+    border: 2px dashed white;
+    border-radius: 100%;
+    width: 170px;
+    height: 170px;
+    padding: 25px 15px 15px 15px;
+}
+
+.yt_iframe_defoult
+{
+    width: 560px;
+    height: 315px;
+    border: 3px dashed white;
+}
+

@@ -1,0 +1,122 @@
+﻿@model SystemOfBookHotel.Application.ViewModel.ListOfRoomPerkVM
+
+@{
+    ViewData["Title"] = "ClientData";
+}     
+
+<div id="booking" class="section">
+    <div class="section-center">
+        <div class="container">
+            <div class="row">
+                <div class="booking-form">
+                    <div class="form-header-2">
+                        <h1>DANE KONTAKTOWE</h1>
+                    </div>
+                    <form asp-action="Summary">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+
+                        <div class="row justify-content-end">
+                            <div class="col-4 col-md-3">
+                                <span asp-validation-for="ClientData.Name" class="warning"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="pers_data">Imię</div>
+                            </div>
+                            <div class="col-9">
+                                <input asp-for="ClientData.Name" type="text"/>
+                            </div>
+                        </div>
+
+
+                        <div class="row justify-content-end">
+                            <div class="col-4 col-md-3">
+                                <span asp-validation-for="ClientData.Surname" class="warning"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="pers_data">Nazwisko</div>
+                            </div>
+                            <div class="col-9">
+                                <input asp-for="ClientData.Surname" type="text"/>
+                            </div>
+                        </div>
+
+
+                        <div class="row justify-content-end">
+                            <div class="col-4 col-md-3">
+                                <span asp-validation-for="ClientData.Email" class="warning"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="pers_data">E-mail</div>
+                            </div>
+                            <div class="col-9">
+                                <input asp-for="ClientData.Email" type="text"/>
+                            </div>
+                        </div>
+
+
+                        <div class="row justify-content-end">
+                            <div class="col-4 col-md-3">
+                                <span asp-validation-for="ClientData.Phone" class="warning"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="pers_data">Telefon</div>
+                            </div>
+                            <div class="col-9">
+                                <input asp-for="ClientData.Phone" type="text" maxlength="11" onkeypress="return isNumber(event)"/>
+                            </div>
+                        </div>
+
+
+                        <div class="form-btn">
+                            <input type="submit" value="ZATWIERDŹ" class="submit-btn" />
+                        </div>
+                        <div>
+                            @for (int i = 0; i < Model.ListRooms.Count; i++)
+                            {
+                                <div>
+                                    <input asp-for="ListRooms[i].Room.CountOld" type="hidden" />
+                                    <input asp-for="ListRooms[i].Room.CountChild" type="hidden" />
+                                    <input asp-for="ListRooms[i].Room.RoomId" type="hidden" />
+                                </div>
+                                <div>
+                                    @for (int j = 0; j < Model.ListRooms[i].PerkList.Count; j++)
+                                    {
+                                        <input asp-for="ListRooms[i].PerkList[j].Check" type="hidden" />
+                                        <input asp-for="ListRooms[i].PerkList[j].Name" type="hidden" />
+                                        <input asp-for="ListRooms[i].PerkList[j].Id" type="hidden" />
+                                    }
+                                </div>
+                            }
+                            <input asp-for="Dates.DateStart" type="hidden" />
+                            <input asp-for="Dates.DateEnd" type="hidden" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    
+<script type="text/javascript">
+    function isNumber(evt) {
+        evt = (evt) ? evt : window.event;
+        var charCode = (evt.which) ? evt.which : evt.keyCode;
+        if (charCode > 31 && (charCode < 48 || charCode > 57)) {
+            return false;
+        }
+        return true;
+    }
+</script>
+}

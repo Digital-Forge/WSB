@@ -1,0 +1,18 @@
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons.ConsoleTerminal\obj\Debug\netcoreapp3.1\RegisterOfPersons.ConsoleTerminal.csprojAssemblyReference.cache
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons.ConsoleTerminal\obj\Debug\netcoreapp3.1\RegisterOfPersons.ConsoleTerminal.AssemblyInfoInputs.cache
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons.ConsoleTerminal\obj\Debug\netcoreapp3.1\RegisterOfPersons.ConsoleTerminal.AssemblyInfo.cs
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons.ConsoleTerminal\obj\Debug\netcoreapp3.1\RegisterOfPersons.ConsoleTerminal.csproj.CoreCompileInputs.cache
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons.ConsoleTerminal\bin\Debug\netcoreapp3.1\RegisterOfPersons.ConsoleTerminal.deps.json
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons.ConsoleTerminal\bin\Debug\netcoreapp3.1\RegisterOfPersons.ConsoleTerminal.dll
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons.ConsoleTerminal\bin\Debug\netcoreapp3.1\RegisterOfPersons.ConsoleTerminal.pdb
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons.ConsoleTerminal\obj\Debug\netcoreapp3.1\RegisterOfPersons.ConsoleTerminal.dll
+C:\Users\CyfrowaKuźnia\Desktop\RegisterOfPersons\RegisterOfPersons.ConsoleTerminal\obj\Debug\netcoreapp3.1\RegisterOfPersons.ConsoleTerminal.pdb
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons.ConsoleTerminal\bin\Debug\netcoreapp3.1\RegisterOfPersons.ConsoleTerminal.deps.json
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons.ConsoleTerminal\bin\Debug\netcoreapp3.1\RegisterOfPersons.ConsoleTerminal.dll
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons.ConsoleTerminal\bin\Debug\netcoreapp3.1\RegisterOfPersons.ConsoleTerminal.pdb
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons.ConsoleTerminal\obj\Debug\netcoreapp3.1\RegisterOfPersons.ConsoleTerminal.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons.ConsoleTerminal\obj\Debug\netcoreapp3.1\RegisterOfPersons.ConsoleTerminal.AssemblyInfoInputs.cache
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons.ConsoleTerminal\obj\Debug\netcoreapp3.1\RegisterOfPersons.ConsoleTerminal.AssemblyInfo.cs
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons.ConsoleTerminal\obj\Debug\netcoreapp3.1\RegisterOfPersons.ConsoleTerminal.csproj.CoreCompileInputs.cache
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons.ConsoleTerminal\obj\Debug\netcoreapp3.1\RegisterOfPersons.ConsoleTerminal.dll
+D:\Project\WSB\Programowanie Zaawansowanie\RegisterOfPersons\RegisterOfPersons.ConsoleTerminal\obj\Debug\netcoreapp3.1\RegisterOfPersons.ConsoleTerminal.pdb

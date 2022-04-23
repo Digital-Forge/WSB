@@ -1,0 +1,253 @@
+:root{
+    --airstripColor: rgb(238, 199, 238);
+    --sortingColor: rgb(141, 185, 226);
+    --warehouseColor: rgb(252, 199, 101);
+    --loadingColor: rgb(255, 255, 142);
+    --outerColor:  rgb(188, 231, 152);
+    --innerColor: rgba(0, 0, 0, 0.384);
+    --formColor: rgba(255, 255, 255, 0.5);
+    --backgroundGradient:  linear-gradient(90deg, var(--airstripColor), var(--loadingColor), var(--outerColor), var(--sortingColor), var(--warehouseColor));
+}
+body{
+    background-image: var(--backgroundGradient); 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button, input[type=submit]{
+    box-sizing: border-box;
+    margin: 5px 0 5px 0;
+    padding: 7px;
+    height: 40px;
+    background: linear-gradient(white, white) padding-box, var(--backgroundGradient) border-box;
+    border: 3px solid transparent;
+    border-image-slice: 1;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.title{
+    position: absolute;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.zone{
+    font-size: 30px;
+}
+
+#container{
+    width: 1000px;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+#header-container{
+    position:relative;
+    box-sizing: border-box;
+    height: 50px;
+    margin: 10px 0 10px 0;
+    padding: 0px;
+    border-radius: 20px;
+    background-color: var(--formColor);
+    text-align: center;
+}
+
+#add-worker-form-open-button{
+    position:absolute;
+    z-index: 1;
+    right: 70px;
+}
+#add-worker-form-wrapper{
+    visibility: hidden; 
+    z-index: 2;
+    height: 500px;
+    width: 500px;
+    position: fixed;
+    top: 200px;
+    left: calc(50% - 250px);
+    background-color: whitesmoke;
+    border: 5px solid var(--innerColor);
+    border-radius: 20px;
+}
+#add-worker-form{
+    position:absolute;
+    top: 150px;
+    left: 175px;
+}
+#add-worker-form-close-button{
+    position:absolute;
+    right:5px;
+    top: 5px;
+    margin: 0;
+    width:40px;
+    height: 40px;
+}
+
+#ZonesContainer{
+    padding: 0;
+    margin: 0;  
+}
+#inner-zone{
+    position: relative;
+    width: 990px;
+    height: 650px;
+    padding: 5px;
+    margin: 0;
+    background-color: var(--innerColor);
+    border-radius: 20px;
+}
+#outer-zone{
+    position: relative;
+    width: 980px;
+    min-height: 330px;
+    padding: 0px;
+    margin: 0;
+    text-align: center;
+    background-color: var(--outerColor);
+    border: 10px solid var(--innerColor);
+    border-radius: 20px;
+}
+#airstrip-zone{
+    position: relative;
+    width: 320px;
+    height: 640px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: var(--airstripColor);
+    border: 5px solid var(--innerColor);
+    border-radius: 20px;
+    float: left;
+}
+#sorting-zone{
+    position: relative;
+    width: 320px;
+    height: 320px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: var(--sortingColor);
+    border: 5px solid var(--innerColor);
+    border-radius: 20px;
+    float: left;
+}
+#warehouse-zone{
+    position: relative;
+    width: 320px;
+    height: 320px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: var(--warehouseColor);
+    border: 5px solid var(--innerColor);
+    border-radius: 20px;
+    float: left;
+}
+#loading-zone{
+    position: relative;
+    width: 650px;
+    height: 310px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: var(--loadingColor);
+    border: 5px solid var(--innerColor);
+    border-radius: 20px;
+    float: left;
+}
+
+.door-button{
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin: 10px;
+    vertical-align: middle;
+    text-align: center;     
+   /* background-color: green;*/
+    color: black;
+    font-weight: bold;
+   
+    
+}
+#door-button-from-airstrip-zone-to-sorting-zone{
+    background-color: var(--sortingColor);
+    z-index: 1;
+    position: absolute;
+    top: calc(640px / 4);
+    right: 0;
+   
+}
+#door-button-from-sorting-zone-to-airstrip-zone{
+    background-color: var(--airstripColor);
+    z-index: 1;
+    position: absolute;
+    top: calc(640px / 4);
+    left: 0;
+}
+#door-button-from-sorting-zone-to-warehouse-zone{
+    background-color: var(--warehouseColor);
+    z-index: 1;
+    position: absolute;
+    top: calc(640px / 4);
+    right: 0;
+}
+#door-button-from-warehouse-zone-to-sorting-zone{
+    background-color: var(--sortingColor);
+    z-index: 1;
+    position: absolute;
+    top: calc(640px / 4);
+    left: 0;
+}
+#door-button-from-sorting-zone-to-loading-zone{
+    background-color: var(--loadingColor);
+    z-index: 1;
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+}
+#door-button-from-loading-zone-to-sorting-zone{
+    background-color: var(--sortingColor);
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+#door-button-from-loading-zone-to-outer-zone{
+    background-color: var(--outerColor);
+    z-index: 1;
+    position: absolute;
+    bottom: 0px;
+    right: 100px;
+}
+#door-button-from-outer-zone-to-loading-zone{
+    background-color: var(--loadingColor);
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    right: 100px;
+}
+
+.list-of-workers-in-zone{
+    width: 80%;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 5% 10% 5% 10%;
+    background-color: var(--formColor);
+    border-radius: 20px;
+    text-align: left;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+

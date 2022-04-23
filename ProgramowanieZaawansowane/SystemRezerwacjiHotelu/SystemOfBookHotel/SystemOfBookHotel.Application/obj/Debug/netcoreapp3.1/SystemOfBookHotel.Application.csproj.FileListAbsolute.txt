@@ -1,0 +1,13 @@
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Application\bin\Debug\netcoreapp3.1\SystemOfBookHotel.Application.deps.json
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Application\bin\Debug\netcoreapp3.1\SystemOfBookHotel.Application.dll
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Application\bin\Debug\netcoreapp3.1\SystemOfBookHotel.Application.pdb
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Application\bin\Debug\netcoreapp3.1\SystemOfBookHotel.Domain.dll
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Application\bin\Debug\netcoreapp3.1\SystemOfBookHotel.Domain.pdb
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Application\obj\Debug\netcoreapp3.1\SystemOfBookHotel.Application.csproj.AssemblyReference.cache
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Application\obj\Debug\netcoreapp3.1\SystemOfBookHotel.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Application\obj\Debug\netcoreapp3.1\SystemOfBookHotel.Application.AssemblyInfoInputs.cache
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Application\obj\Debug\netcoreapp3.1\SystemOfBookHotel.Application.AssemblyInfo.cs
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Application\obj\Debug\netcoreapp3.1\SystemOfBookHotel.Application.csproj.CoreCompileInputs.cache
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Application\obj\Debug\netcoreapp3.1\SystemOfBookHotel.Application.csproj.CopyComplete
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Application\obj\Debug\netcoreapp3.1\SystemOfBookHotel.Application.dll
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Application\obj\Debug\netcoreapp3.1\SystemOfBookHotel.Application.pdb

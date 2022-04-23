@@ -1,0 +1,68 @@
+﻿@model SystemOfBookHotel.Application.ViewModel.AccessVM
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div id="booking" class="section">
+    <div class="section-center">
+        <div class="container">
+            <div class="row">
+                <div class="booking-form">
+                    <div class="form-header-2">
+                        <h1>@Model.Role</h1>
+                    </div>
+                    <form asp-action="@Model.Role">
+                        <input asp-for="Role" type="hidden" />
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+
+                        <div class="row justify-content-end">
+                            <div class="col-4 col-md-3">
+                                <span asp-validation-for="Login" class="warning"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="pers_data">Login</div>
+                            </div>
+                            <div class="col-9">
+                                <input asp-for="Login" type="text" />
+                            </div>
+                        </div>
+
+
+                        <div class="row justify-content-end">
+                            <div class="col-4 col-md-3">
+                                <span asp-validation-for="Password" class="warning"></span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="pers_data">Password</div>
+                            </div>
+                            <div class="col-9">
+                                <input asp-for="Password" type="password" />
+                            </div>
+                        </div>
+
+                        @if (!string.IsNullOrEmpty(Model.Alert))
+                        {
+                            <div>
+                                @Model.Alert
+                            </div>
+                        }
+                        <div class="form-group">
+                            <input type="submit" value="Enter" class="btn btn-primary" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

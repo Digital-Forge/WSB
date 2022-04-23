@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head lang="pl">
+    <meta charset="utf-8" />
+    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    
+    <div id="add-worker-form-wrapper">
+        <button type="button" id="add-worker-form-close-button" onclick="CloseAddWorkerForm()">&#215;</button>
+        <div id="add-worker-form">
+            <label>ID karty:</label><br>
+            <input type="number" id="worker-id" name="worker-id"><br><br>
+
+            <label>Imię:</label><br>
+            <input type="text" id="worker-name" name="worker-name"><br><br>
+
+            <label>Nazwisko:</label><br>
+            <input type="text" id="worker-surname" name="worker-surname"><br><br>
+            <center><input type="button" onclick="AddWorker()" id="AddWorkerSubmit" value="Dodaj"></center>
+        </div>
+    </div>
+
+    <div id="container">
+
+        <div id="header-container">
+            <img src="https://www.seekpng.com/png/full/15-156379_unicorn-png-free-download-unicorn-transparent.png"
+        style="height: 40px; margin-top: 5px; margin-bottom: 5px; position:absolute; left: 130px;">
+            <p class="title">Airpost Logistics</p>
+            <button type="button" id="add-worker-form-open-button" onclick="OpenAddWorkerForm()">Dodaj Pracownika</button>
+        </div>
+
+        <div id="zones-container">
+            <div id="inner-zone">
+
+                    <div id="airstrip-zone" class="zone">
+                        Strefa Airstrip
+                        <div class="list-of-workers-in-zone" id="list-of-workers-in-airstrip-zone">
+                            <!-- lista pracowników w strefie (uzupełniana przez funkcję typescript) -->
+                        </div>
+                        <input type="button" id="door-button-from-airstrip-zone-to-sorting-zone" class="door-button" value="&#8594;" onclick="doorButtonAction_AirstripZone_To_SortingZone()"/> 
+                    </div>
+
+                <div style="float: left">
+
+                    <div id="sorting-zone" class="zone">
+                        Strefa Sorting
+                        <div class="list-of-workers-in-zone" id="list-of-workers-in-sorting-zone">
+                        <!-- lista pracowników w strefie (uzupełniana przez funkcję typescript) -->
+                        </div>
+                        <input type="button" id="door-button-from-sorting-zone-to-airstrip-zone" class="door-button" value="&#8592;" onclick="doorButtonAction_SortingZone_To_AirstripZone()"/>
+                        <input type="button" id="door-button-from-sorting-zone-to-warehouse-zone" class="door-button" value="&#8594;" onclick="doorButtonAction_SortingZone_To_WarehouseZone()"/>
+                        <input type="button" id="door-button-from-sorting-zone-to-loading-zone" class="door-button" value="&#8595;" onclick="doorButtonAction_SortingZone_To_LoadingZone()"/>
+                    </div>
+
+                    <div id="warehouse-zone" class="zone">
+                        Strefa Warehouseowa
+                        <div class="list-of-workers-in-zone" id="list-of-workers-in-warehouse-zone">
+                        <!-- lista pracowników w strefie (uzupełniana przez funkcję typescript) -->
+                        </div>
+                        <input type="button" id="door-button-from-warehouse-zone-to-sorting-zone" class="door-button" value="&#8592;" onclick="doorButtonAction_WarehouseZone_To_SortingZone()"/>
+                    </div>
+
+                    <div style="clear: both"></div>
+
+                    <div id="loading-zone" class="zone">
+                        Strefa Załadunku/Rozładunku
+                        <div class="list-of-workers-in-zone" id="list-of-workers-in-loading-zone">
+                            <!-- lista pracowników w strefie (uzupełniana przez funkcję typescript) -->
+                        </div>                    
+    
+                        <input type="button" id="door-button-from-loading-zone-to-outer-zone" class="door-button" value="&#8595;" onclick="doorButtonAction_LoadingZone_To_OuterZone()"/>
+                        <input type="button" id="door-button-from-loading-zone-to-sorting-zone" class="door-button" value="&#8593;" onclick="doorButtonAction_LoadingZone_To_SortingZone()"/>
+                    </div>
+
+                    <div style="clear: both"></div>
+                </div> <!-- div style=float: left -->
+
+                <div style="clear: both"></div>
+
+            </div> <!-- div id=inner-zone -->
+
+            <div id="outer-zone" class="zone">
+                Strefa Zewnętrzna
+                <div class="list-of-workers-in-zone" id="list-of-workers-in-outer-zone">
+                    <!-- lista pracowników w strefie (uzupełniana przez funkcję typescript) -->
+                </div>
+                <button type="button" id="load-list-of-workers-button" onclick="LoadWorkersList()">Załaduj pracowników</button>
+                <input type="button" id="door-button-from-outer-zone-to-loading-zone" class="door-button" value="&#8593;" onclick="doorButtonAction_OuterZone_To_LoadingZone()"/>
+            </div>
+
+        </div> <!-- div id=zones-container -->
+    </div> <!-- div id=container -->
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "RegisterOfPersons.App/1.0.0": {
+        "dependencies": {
+          "RegisterOfPersons.ConsoleTerminal": "1.0.0"
+        },
+        "runtime": {
+          "RegisterOfPersons.App.dll": {}
+        }
+      },
+      "RegisterOfPersons.ConsoleTerminal/1.0.0": {
+        "runtime": {
+          "RegisterOfPersons.ConsoleTerminal.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RegisterOfPersons.App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RegisterOfPersons.ConsoleTerminal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,16 @@
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Infrastructure\bin\Debug\netcoreapp3.1\SystemOfBookHotel.Infrastructure.deps.json
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Infrastructure\bin\Debug\netcoreapp3.1\SystemOfBookHotel.Infrastructure.runtimeconfig.json
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Infrastructure\bin\Debug\netcoreapp3.1\SystemOfBookHotel.Infrastructure.runtimeconfig.dev.json
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Infrastructure\bin\Debug\netcoreapp3.1\SystemOfBookHotel.Infrastructure.dll
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Infrastructure\bin\Debug\netcoreapp3.1\SystemOfBookHotel.Infrastructure.pdb
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Infrastructure\bin\Debug\netcoreapp3.1\SystemOfBookHotel.Domain.dll
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Infrastructure\bin\Debug\netcoreapp3.1\SystemOfBookHotel.Domain.pdb
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Infrastructure\obj\Debug\netcoreapp3.1\SystemOfBookHotel.Infrastructure.csproj.AssemblyReference.cache
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Infrastructure\obj\Debug\netcoreapp3.1\SystemOfBookHotel.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Infrastructure\obj\Debug\netcoreapp3.1\SystemOfBookHotel.Infrastructure.AssemblyInfoInputs.cache
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Infrastructure\obj\Debug\netcoreapp3.1\SystemOfBookHotel.Infrastructure.AssemblyInfo.cs
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Infrastructure\obj\Debug\netcoreapp3.1\SystemOfBookHotel.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Infrastructure\obj\Debug\netcoreapp3.1\SystemOfBookHotel.Infrastructure.csproj.CopyComplete
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Infrastructure\obj\Debug\netcoreapp3.1\SystemOfBookHotel.Infrastructure.dll
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Infrastructure\obj\Debug\netcoreapp3.1\SystemOfBookHotel.Infrastructure.pdb
+D:\Project\WSB\WSB\ProgramowanieZaawansowane\SystemRezerwacjiHotelu\SystemOfBookHotel\SystemOfBookHotel.Infrastructure\obj\Debug\netcoreapp3.1\SystemOfBookHotel.Infrastructure.genruntimeconfig.cache
